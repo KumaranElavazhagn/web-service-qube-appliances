@@ -1,0 +1,10 @@
+.status-card {
+    border: none !important;
+    padding: 20px;
+}
+
+.rounded-circle-position {
+    border-radius: 50% !important;
+    width: 10px;
+    height: 10px;
+}

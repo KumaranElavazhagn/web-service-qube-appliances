@@ -1,0 +1,61 @@
+.app-table-card {
+    border: none !important;
+    padding: 15px;
+}
+
+.search-max-width {
+    max-width: 250px;
+}
+
+.filter-button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #E6ECF0;
+}
+
+.data-txt {
+    color: #69788C;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: right;
+}
+
+.select-min-width {
+    min-width: 69.58px
+}
+
+li .Mui-selected {
+    background-color: #eaf4ff !important;
+    color: #084782 !important;
+    border: 1px solid #084782 !important;
+    border-radius: 8px !important;
+}
+
+table thead tr {
+    border-bottom: 1px solid #CFDCE5;
+    height: 65px;
+}
+
+table thead tr th {
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 24px;
+    text-align: left;
+}
+
+table tbody tr {
+    height: 70px;
+}
+
+.blue-table-data {
+    color: #084782;
+}
+
+.rounded-circle-position.display {
+    display: inline-block
+}
