@@ -18,3 +18,7 @@ export interface Location {
   state: string;
   country: string;
 }
+
+export interface ApplianceStatusResponse {
+  [key: string]: number;
+}

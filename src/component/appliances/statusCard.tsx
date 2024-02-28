@@ -1,6 +1,6 @@
 import '../../Css/statusCard.css'
 import '../../Css/commonCss.css'
-import { Appliance } from '../../interface/Appliances'
+import { Appliance, ApplianceStatusResponse } from '../../interface/Appliances'
 import { useEffect, useState } from 'react'
 
 type Props = {
@@ -21,10 +21,7 @@ export const StatusCard = (props: Props) => {
     })
 
     useEffect(() => {
-        const counts = props.applianceResponse?.reduce((acc: Record<string, number>, curr: Appliance) => {
-            acc[curr.downloadStatus]++;
-            return acc;
-        }, {
+        const counts: ApplianceStatusResponse = {
             Failed: 0,
             Stalled: 0,
             Archived: 0,
@@ -33,6 +30,10 @@ export const StatusCard = (props: Props) => {
             Unarchiving: 0,
             Downloading: 0,
             Downloaded: 0,
+        };
+
+        props.applianceResponse?.forEach((curr: Appliance) => {
+            counts[curr.downloadStatus]++;
         });
 
         setStatus(counts);
