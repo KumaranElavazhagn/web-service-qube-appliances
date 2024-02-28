@@ -5,12 +5,16 @@ import '../../Css/commonCss.css'
 import { useEffect, useState } from 'react';
 import { Appliance } from '../../interface/Appliances';
 import { compare } from "../../Utils/comparator"
+import { useNavigate } from 'react-router-dom';
 
 type Props = {
     applianceResponse: Appliance[]
 }
 
 export const ApplianceTable = (props: Props) => {
+
+    const navigate = useNavigate();
+
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPage, setTotalPage] = useState(0)
     const [rowsPerPage, setRowsPerPage] = useState(10);
@@ -75,7 +79,7 @@ export const ApplianceTable = (props: Props) => {
                     </td>
                     <td>{data.osVersion}</td>
                     <td className='text-center'>
-                        <button className='ms-3 filter-button'>
+                        <button className='ms-3 filter-button' onClick={()=>{navigate(`/appliance-details/${data.serialNo}`)}}>
                             <span className='mx-2 text-no-wrap'>
                                 <span className='ms-1'>View</span>
                             </span>

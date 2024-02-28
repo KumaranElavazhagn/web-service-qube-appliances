@@ -1,0 +1,50 @@
+.device-detail-card {
+    background-color: white;
+}
+
+.device-detail-card-status {
+    padding: 4px;
+    border: none;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #E6ECF0;
+}
+
+.border-bottom-dd-card {
+    border-bottom: 1px solid #CFDCE5;
+    height: 35px;
+}
+
+.data-txt-bolder {
+    color: #69788C;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: right;
+}
+
+.device-monitor-card {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.05);
+    border: none !important;
+}
+
+.device-monitor-card-label {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    text-wrap: wrap;
+    display: block
+}
+
+.device-monitor-card-span {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    display: block
+}

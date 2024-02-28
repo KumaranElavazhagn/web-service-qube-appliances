@@ -7,3 +7,11 @@ export const GetAppliances = async (deviceStatus: string, downloadStatus: string
   });
   return response;
 };
+
+export const GetApplianceDetail = async (applianceId: string) => {
+  const response = await client(
+    `/api/v1/appliance/${applianceId}/info`, {
+    method: "GET",
+  });
+  return response;
+};
