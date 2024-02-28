@@ -1,4 +1,4 @@
-# Project Name
+# Qube Appliances
 
 ## Description
 Welcome to Qube Appliances! This web application is designed for managing appliances, providing a user-friendly interface to interact with appliance data efficiently. Whether you're monitoring device statuses, checking download progress, or reviewing detailed appliance information, this application has you covered.
