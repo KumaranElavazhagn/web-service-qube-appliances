@@ -36,3 +36,9 @@ Welcome to Qube Appliances! This web application is designed for managing applia
 4. Install the required dependencies: npm install
 5. Start the application: npm start
 6. Open your web browser and go to `http://localhost:3000` to view the application.
+
+## Backend Information
+To run the backend locally, you'll need to download and install the backend code from the following repository:
+[Qube Appliances Backend Repository](https://github.com/KumaranElavazhagn/qube-appliances-challenge)
+
+Please refer to the README.md file in the backend repository for instructions on how to run the backend server locally.
