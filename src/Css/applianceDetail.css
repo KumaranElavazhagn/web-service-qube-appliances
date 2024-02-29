@@ -19,7 +19,7 @@
 .data-txt-bolder {
     color: #69788C;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 20px;
     letter-spacing: -0.20000000298023224px;
     text-align: right;
@@ -31,17 +31,19 @@
 }
 
 .device-monitor-card-label {
-    font-size: 13px;
+    font-family: Commissioner;
+    font-size: 12px;
     font-weight: 500;
     line-height: 20px;
     letter-spacing: -0.20000000298023224px;
-    text-align: left;
+    text-align: left;    
     text-wrap: wrap;
     display: block
 }
 
 .device-monitor-card-span {
-    font-size: 15px;
+    font-family: Commissioner;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.20000000298023224px;

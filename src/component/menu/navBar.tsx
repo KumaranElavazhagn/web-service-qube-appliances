@@ -4,7 +4,7 @@ const NavBarComponent = () => {
     return (
         <nav className="navbar menu-bar-base">
             <a className="navbar-brand ms-3" href="/">
-                <h3 className='m-0'>Devices</h3>
+                <h3 className='m-0 nav-bar-font'>Devices</h3>
             </a>
         </nav>
     )

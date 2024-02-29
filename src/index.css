@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: Commissioner;
+  src: url(../public/Font/static/Commissioner-Regular.ttf);
+}
+
+.Commissioner{
+  font-family: Commissioner;
+}
