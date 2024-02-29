@@ -48,3 +48,18 @@
     text-align: left;
     display: block
 }
+
+.data-txt.breadcrumb {
+    font-size: 12px !important;
+}
+
+.breadcrumb {
+    font-size: 12px !important;
+}
+
+.breadcrumb-img {
+    width: 6.18px;
+    height: 10.56px;
+    top: 17.31px;
+    left: 9.32px;
+}

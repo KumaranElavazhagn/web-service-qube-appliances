@@ -142,7 +142,7 @@ export const ApplianceTable = (props: Props) => {
                         <select
                             className="form-select select-min-width"
                             value={rowsPerPage}
-                            onChange={(event) => { setRowsPerPage(Number(event.target.value)); }}
+                            onChange={(event) => { setRowsPerPage(Number(event.target.value));setCurrentPage(1) }}
                         >
                             <option value={10}>10</option>
                             <option value={20}>20</option>
